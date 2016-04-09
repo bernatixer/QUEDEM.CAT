@@ -13,3 +13,5 @@ També hi ha un espai per professors particulars, aquests es poden anunciar a la
 La web també aporta informació i enllaços d’interès pels estudiants, amb informació, exàmens resolts de les PAU i exercicis per practicar de diferents matèries i cursos.
 
 ## Instalació
+Per a què QUEDEM.CAT funcioni correctament, necessita un servidor que allotji fitxers (amb suport per a PHP i MySQL) i un domini.
+> [Hostinger](http://www.hostinger.es/) és un bon servidor, alhora és grauit i proporciona un domini.
