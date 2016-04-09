@@ -14,4 +14,6 @@ La web també aporta informació i enllaços d’interès pels estudiants, amb i
 
 ## Instalació
 Per a què QUEDEM.CAT funcioni correctament, necessita un servidor que allotji fitxers (amb suport per a PHP i MySQL) i un domini.
-> [Hostinger](http://www.hostinger.es/) és un bon servidor, alhora és grauit i proporciona un domini.
+> [Hostinger](http://www.hostinger.es/) és una empresa d'allotjament que proporciona un servidor i domini gratuits.
+
+QUEDEM.CAT treballa amb bases de dades, exactament MySQL. Per tal que la web funcioni corretament, s'ha d'importar la base de dades, es fa des del seguent apartat: ![Importar Base de Dades](http://bernatixer.com/TDR/img/importar.png)
