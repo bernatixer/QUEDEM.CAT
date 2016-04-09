@@ -27,3 +27,8 @@ mysql_connect('IP', 'USUARI', 'CONTRASENYA');
 mysql_select_db('BASE_DE_DADES');
 ?>
 ```
+Un cop fets tots aquests pasos la web es pot posar en marxa.
+
+# Español
+
+
