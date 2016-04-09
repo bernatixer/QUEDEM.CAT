@@ -51,7 +51,8 @@ if(isset($_POST['nom'], $_POST['contrasenya'], $_POST['correu'])){
 			if($dn1==0){
 				$dn2 = mysql_num_rows(mysql_query('SELECT id from TDR_usuaris'));
 				$id = $dn2+1;
-				if(mysql_query('INSERT into TDR_usuaris(`id`, `nom`, `correu`, `contrasenya`, `tipus`) values ('.$id.',"'.$nom.'","'.$correu.'","'.$contrasenya.'","'.$tipus.'")')){
+				$query = 'INSERT INTO `TDR_usuaris`(`id`, `nom`, `correu`, `contrasenya`, `tipus`) VALUES (DEFAULT,"'.$nom.'","'.$correu.'","'.$contrasenya.'","'.$tipus.'")';
+				if(mysql_query($query)){
 					$_SESSION['nom'] = $nom;
 					$_SESSION['id'] = $id;
 					echo "<script type=\"text/javascript\">window.location='index.php';</script>";
