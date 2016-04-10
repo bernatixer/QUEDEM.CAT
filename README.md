@@ -1,10 +1,9 @@
 # QUEDEM.CAT
-Una plataforma per a estudiants i professors particulars
 
 # Català
 
 ## Que és QUEDEM.CAT?
-QUEDEM.CAT és una plataforma per a estudiants i professors particulars, en especial pels estudiants de secundària i batxillerat.
+QUEDEM.CAT és una plataforma per a estudiants i professors particulars, en especial pels estudiants de secundària i batxillerat. Aquesta plataforma deriva del treball de recerca de 2n de Batxillerat.
 
 QUEDEM.CAT dona la possibilitat als estudiants de poder crear grups d’estudi o inscriure’s a ja creats. Llavors, amb el grup d’estudi  poden quedar amb els participants en un espai per a estudiar, per exemple, una biblioteca, i estudiar entre tots el que s’hagi planejat.
 
