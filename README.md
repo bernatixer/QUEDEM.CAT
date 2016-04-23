@@ -1,5 +1,7 @@
 # QUEDEM.CAT
 
+La web actualment es troba en funcionament a > [QUEDEM.CAT](http://quedem.cat/)
+
 # Català
 
 ## Que és QUEDEM.CAT?
