@@ -59,5 +59,29 @@ mysql_select_db('BASE_DE_DATOS');
 ```
 Una vez hechos todos estos pasos la web ya se puede poner en marcha.
 
-# Español
+# Enligsh
 
+## What is QUEDEM.CAT?
+QUEDEM.CAT is a platform for students and private teachers, speacialy, secondary school and A-level students.
+
+QUEDEM.CAT gives the possibility to students to create groups of studying or join an already created one. Then, meet with the group participants in a place to study like a library and study.
+
+There's also a space for private teachers, where they can announce and fathers or students contact with them.
+
+The web also provides useful information to students, with exams, exercices from different grades.
+
+## Instalation
+To make QUEDEM.CAT working and functional it needs a server to host all the files (with support to PHP and MySQL) and a domain.
+
+QUEDEM.CAT works with databases, exactly MySQL. So to make the work fully functional the database needs to be imported, with a manager like PHPMyAdmin it's done like this way:
+
+![Import database](http://bernatixer.com/TDR/img/importar.png)
+
+Then we need to edit the file wich connects to the database, wich is **config.php**
+```php
+<?php
+session_start();
+mysql_connect('IP', 'USERNAME', 'PASSWORD');
+mysql_select_db('DATABASE');
+?>
+```
