@@ -70,7 +70,7 @@ There's also a space for private teachers, where they can announce and fathers o
 
 The web also provides useful information to students, with exams, exercices from different grades.
 
-## Instalation
+## Installation
 To make QUEDEM.CAT working and functional it needs a server to host all the files (with support to PHP and MySQL) and a domain.
 
 QUEDEM.CAT works with databases, exactly MySQL. So to make the work fully functional the database needs to be imported, with a manager like PHPMyAdmin it's done like this way:
