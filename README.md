@@ -32,4 +32,32 @@ Un cop fets tots aquests pasos la web es pot posar en marxa.
 
 # Español
 
+## Que es QUEDEM.CAT?
+QUEDEM.CAT es una plataforma para estudiantes i profesores particulares, en especial para estudiantes de secundaria i bachillerato. 
+
+QUEDEM.CAT da la posibilidad a los estudiantes de poder crear grupos de estudio o inscribirse a ya creados. Entonces, con el grupo de estudio pueden quedar con los participantes en un espaio para estudiar, por ejemplo, una biblioteca, i estudiar ente todos el que se haya planteado.
+
+También hay un espacio para profesores particulares, estos se pueden anunciar a la web y los alumnos o padres contactar con ellos.
+
+La web también facilita información y links de interés por los estudiantes, con información, examenes resueltos de la selectividad y ejercicios para practicar de distintas materias y cursos.
+
+## Instalación
+Para que QUEDEM.CAT funcione correctamente, se necesita un servidor que aloje los archivos (con soporte para PHP y MySQL) y un dominio.
+> [Hostinger](http://www.hostinger.es/) es una empresa de alojamiento que proporciona un servidor y un dominio gratuitos.
+
+QUEDEM.CAT trabaja con bases de datos, exactamente MySQL. Así que para que la web funcione correctamente, se ha de importar la base de datos, en un manager como PHPMyAdmin se hace des del siguiente apartado:
+
+![Importar Base de Datos](http://bernatixer.com/TDR/img/importar.png)
+
+Después hace falta editar la conexión a la base de datos, que se encuentra en el archivo **config.php**
+```php
+<?php
+session_start();
+mysql_connect('IP', 'USUARIO', 'CONTRASEÑA');
+mysql_select_db('BASE_DE_DATOS');
+?>
+```
+Una vez hechos todos estos pasos la web ya se puede poner en marcha.
+
+# Español
 
